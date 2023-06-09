@@ -5,8 +5,8 @@ const StorageSchema = new mongoose.Schema(
         url:{
             type: String
         },
-        file: {
-            type: Number
+        filename: {
+            type: String
         }
     },
     {
